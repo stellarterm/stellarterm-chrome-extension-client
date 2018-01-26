@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "StellarTerm Chrome Extension",
+  "description": "",
+  "version": "0.0.0",
+
+  "browser_action": {
+    "default_icon": "stellarterm-logo.png"
+  },
+  "content_security_policy": "default-src 'self'; script-src 'self' 'sha256-437lESJUWoMvLdTNMNbqcP+O8oJXJCQekcDyoGFz98k='  'sha256-PqYOz42uuAgrRFVRQcnXIzhrxZLNWUykSEs23eCjXsU='  'sha256-JFzD40F/ZNao4j3yA9zUbqTcoSqcSp60E/baYx87HQI='  'sha256-gnk3rLiacFvwcYzShZwJcrmvI61YQu6wDaG0oQrNLbE='  'sha256-Yt1MOpVdf4zR5Lc34kuUZozTVEXlnBfMvFJQ9nsVEF4=' 'sha256-AW4U1jC8JHb4SUdDBxT0YPfgjxUQaqr/pmtkA88t4Xo=' 'sha256-AW4U1jC8JHb4SUdDBxT0YPfgjxUQaqr/pmtkA88t4Xo=';  connect-src https:; img-src 'unsafe-inline'",
+  "background" : {
+    "scripts" : ["clickButtonToOpenPage.js"]
+  },
+  "permissions": [
+  ]
+}
